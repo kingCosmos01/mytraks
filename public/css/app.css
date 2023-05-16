@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.container .wrapper {
+    width: 100vw;
+}
+
+.container .wrapper .head {
+    display: flex;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.container .wrapper .head h2 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.container .wrapper > img {
+  position: relative;
+  display: flex;
+  min-width: 50%;
+  left: 100px;
+} 
+
+
+.container .wrapper .nav {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background: #000;
+}
+
+.container .wrapper .nav img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.container .wrapper .nav h4 {
+    position: relative;
+    display: inline-flex;
+    font-weight: 400;
+    color: #fff;
+    font-size: 28px;
+    display: inline-flex;
+    left: 90px;
+    top: 5px;
+}
+
+/* RECOMMENDATIONS CARD */
+
+
+#recommendations {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #f0f0f0;
+    margin: 4px 0;
+}
+
+#recommendations .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#recommendations .card h2.card-title {
+    min-width: 100%;
+    padding: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#recommendations .card .card-item {
+    min-width: 100%;
+    padding: 10px;
+    background: #e2f5e6;
+    list-style: none;
+    margin-top: 1px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#recommendations .card .card-item p {
+    max-width: 80%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+/* AVOIDABLE CARDS */
+
+#avoidable {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #f0f0f0;
+    margin: 4px 0;
+}
+
+#avoidable .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#avoidable .card h2.card-title {
+    min-width: 100%;
+    padding: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#avoidable .card .card-item {
+    min-width: 100%;
+    padding: 10px;
+    background: rgb(255, 204, 204);
+    list-style: none;
+    margin-top: 2px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#avoidable .card .card-item p {
+    max-width: 80%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .container .wrapper>img {
+        position: relative;
+        display: block;
+        width: 100%;
+        left: 0;
+    }
+
+    #recommendations .card {
+        width: 100%;
+    }
+
+    #recommendations .card h2.card-title {
+        position: relative;
+        display: flex;
+        max-width: 50%;
+        text-align: left;
+        margin: 15px 0;
+        padding: 0;
+        padding: 10px;
+    }
+
+    
+} 

@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 500ms linear;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: #000;
+}
+
+.container .wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container .wrapper .head {
+    position: relative;
+    display: inline-flex;
+    padding: 10px;
+    margin-left: -60%;
+}
+
+.container .wrapper .head h2 {
+    font-weight: 200;
+    margin-top: 10px;
+    color: #f0f0ff;
+}
+
+.container .wrapper .head img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.container .wrapper .navTrigger {
+    position: absolute;
+    display: block;
+    width: 50px;
+    right: 100px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.container .wrapper .navTrigger span {
+    position: relative;
+    display: block;
+    width: inherit;
+    height: 3px;
+    background: #f0f0ff;
+    margin-top: 3px;
+    border-radius: .4rem;
+}
+
+.container .wrapper .navTrigger span:nth-child(2) {
+    width: 40px;   
+}
+.container .wrapper .navTrigger span:nth-child(3) {
+    width: 30px;
+}
+
+.section {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: #f0f0ff;
+    overflow: hidden;
+}
+
+.section .head {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.section .head h2 {
+    font-weight: 400;
+}
+
+.section .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    background: #f0f0ff;
+    padding: 10px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.section .container .card {
+    position: relative;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    background: #f0f0ff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.section .card a {
+    position: absolute;
+    text-decoration: none;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    background: #ff8c00;
+    text-align: center;
+    font-weight: 300;
+    color: #f0f0ff;
+    z-index: 99;
+}
+
+.section .card .overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000b6;
+}
+
+.navContainer {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    z-index: 100;
+    border-radius: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.navContainer .head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navContainer .head h2 {
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.navContainer .head .closeBtn {
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #e0dcdc;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    z-index: 98;
+    opacity: .7;
+}
+
+.navContainer .wrapper .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.navContainer .wrapper .content ul {
+    width: 100%;
+}
+.navContainer .wrapper .content ul > li  {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.navContainer .wrapper .content ul > li a {
+    text-decoration: none;
+
+}
+.navContainer .wrapper img {
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    left: 60%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #f0f0ff;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+
+[
+    {
+        "Pregnancy": {
+            "title": "The following Foods are Beneficial to your Health and Fetal Development During Pregnancy",
+            "Vegetables" : "carrots, sweet potatoes, pumpkin, spinach, cooked greens, tomatoes and red sweet peppers (for vitamin A and potassium)",
+            "Fruits" : "cantaloupe, honeydew, mangoes, prunes, bananas, apricots, oranges, and red or pink grapefruit (for potassium)",
+            "Diary" : "fat-free or low-fat yogurt, skim or 1% milk, soymilk (for calcium, potassium, vitamins A and D)",
+            "Grains" : "ready-to-eat cereals/cooked cereals (for iron and folic acid)",
+            "Proteins" : "beans and peas; nuts and seeds; lean beef, lamb and pork; salmon, trout, herring, sardines and pollock",
+            "avoidable" : {
+                "title" : "Avoid eating the following foods during pregnancy:",
+                "body" : "Unpasteurized milk and foods made with unpasteurized milk (soft cheeses, including feta, queso blanco and fresco, Camembert, brie or blue-veined cheeses—unless labeled “made with pasteurized milk Hot dogs and luncheon meats (unless they are heated until steaming hot before serving) Raw and undercooked seafood, eggs and meat. Do not eat sushi made with raw fish (cooked sushi is safe). Refrigerated pâté and meat spreads Refrigerated smoked seafood"
+            }
+        },
+
+        "Hepatitis": {
+            "title": "Hepatitis Diet: Recommended Foods to Eat",
+            "FruitsandVegetables": "Fruits and vegetables should be a significant part of any diet to help in recovering from a liver disease. They are full of essential nutrients and are easy to digest. As a bonus, they also contain antioxidants, which can protect the liver cells from damage. However, it is recommended that one go easy on starchy vegetables such as potatoes when on a Hepatitis recovery diet. While canned or frozen fruits are fine it is always a good idea to try and eat fresh and seasonal produce when possible.",
+            "Grains" : "Whole grains are very beneficial to consume as part of a healthy Hepatitis diet. These can be in the form of bran, whole wheat bread or cereal, brown rice, whole grain pasta or porridge. Include other whole grains such as whole oats, wild rice, rye, oatmeal and corn.",
+            "proteins" : "Healthy proteins in the form of low-fat milk and dairy products along with lean meats, beans, eggs and soy products can also be a part of a healthy liver diet.",
+            "avoidable" : {
+                "title" : "Hepatitis Diet: Foods to Avoid",
+                "ProcessedFoodItems" : "Processed food items are best avoided when recovering from Hepatitis. Processed food items include processed ingredients that are harder on the liver and relatively devoid of nutrients. Processed breads, cheese and almost all fast -food items are also best avoided during Hepatitis, as they can worsen recovery times.",
+                "HydrogenatedOils" : "Hydrogenated oils must be replaced with healthy oils. In fact for a lifelong healthy liver it is a good idea to switch to healthy oil choices. Avoid consuming foods high in saturated fats or trans-fats.",
+                "sugarIntake" : "Sugar intake should be limited for a healthy liver. This includes all artificial sweeteners as well as fruits juices. Juices have high concentrations of sugar in them, which can be difficult for the liver to digest when the body is under attack from the Hepatitis virus."
+            }
+        },
+        
+        "Diabetics": {
+            "title": "Best foods for people living with diabetes",
+            "Fattyfish" : "Salmon, sardines, herring, anchovies, and mackerel are great sources of the omega-3 fatty acids DHA and EPA, which have major benefits for heart health (1Trusted Source). Getting enough of these fats on a regular basis is especially important for people with diabetes, who have an increased risk of heart disease and stroke. DHA and EPA protect the cells that line your blood vessels, reduce markers of inflammation, and may help improve the way your arteries function. Research indicates that people who eat fatty fish regularly have a lower risk of acute coronary syndromes, like heart attacks, and are less likely to die from heart disease. Studies show that eating fatty fish may also help regulate blood sugar. A study involving 68 adults who had overweight or obesity found that participants who consumed fatty fish had significant improvements in post-meal blood sugar levels than participants who consumed lean fish (3Trusted Source). Fish is also a great source of high quality protein, which helps you feel full and helps stabilize blood sugar levels.",
+            "LeafyGreens" : "Leafy green vegetables are extremely nutritious and low in calories. They’re also very low in digestible carbs, or carbs absorbed by the body, so they won’t significantly affect blood sugar levels. Spinach, kale, and other leafy greens are good sources of many vitamins and minerals, including vitamin C. Some evidence suggests that people with diabetes have lower vitamin C levels than people without diabetes, and they may have greater vitamin C requirements. Vitamin C acts as a potent antioxidant and also has anti-inflammatory qualities. Increasing dietary intake of vitamin C-rich foods can help people with diabetes increase their serum vitamin C levels while reducing inflammation and cellular damage.",
+            "Avocados" : "Avocados have less than 1 gram of sugar, few carbohydrates, a high fiber content, and healthy fats, so you don’t have to worry about them raising your blood sugar levels. Avocado consumption is also associated with improved overall diet quality and significantly lower body weight and body mass index (BMI). This makes avocados an ideal snack for people with diabetes, especially since obesity increases the chances of developing diabetes. Avocados may have properties specific to preventing diabetes.A 2019 study in mice found that avocatin B (AvoB), a fat molecule found only in avocados, inhibits incomplete oxidation in skeletal muscle and the pancreas, which reduces insulin resistance. More research is needed in humans to establish the connection between avocados and diabetes prevention.",
+            "Eggs" : "Regular egg consumption may reduce your heart disease risk in several ways. Eggs may decrease inflammation, improve insulin sensitivity, increase your HDL (good) cholesterol levels, and modify the size and shape of your LDL (bad) cholesterol. A 2019 study found that eating a high fat, low carb breakfast of eggs could help people with diabetes manage blood sugar levels throughout the day. Older research has linked egg consumption with heart disease in people with diabetes. But a more recent review of controlled studies found that eating 6 to 12 eggs per week as part of a nutritious diet did not increase heart disease risk factors in people with diabetes. What’s more, some research suggests that eating eggs may reduce the risk of stroke",
+            "Beans" : "Beans are affordable, nutritious, and super healthy. Beans are a type of legume rich in B vitamins, beneficial minerals (calcium, potassium, and magnesium), and fiber. They also have a very low glycemic index, which is important for managing diabetes. Beans may also help prevent diabetes. In a study involving more than 3,000 participants at high risk of cardiovascular disease, those who had a higher consumption of legumes had a reduced chance of developing type 2 diabetes.",
+            "Broccoli" : "Broccoli is one of the most nutritious vegetables around. A half cup of cooked broccoli contains only 27 calories and 3 grams of digestible carbs, along with important nutrients like vitamin C and magnesium. Broccoli may also help manage your blood sugar levels. This reduction in blood glucose levels is likely due to sulforaphane, a chemical in cruciferous vegetables like broccoli and sprouts."
+        }
+    }
+]
