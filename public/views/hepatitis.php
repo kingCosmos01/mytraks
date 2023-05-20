@@ -25,9 +25,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hepatitis Health Recommendations</title>
     <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/healthTip.css">
 </head>
 <body>
-
+    <?php require_once '../inc/healthtips.php'; ?>
+    
     <div class="container">
         <div class="wrapper">
             <div class="nav">
@@ -49,5 +51,6 @@
     </div>
 
     <script src="../js/hepatitisAPI.js"></script>
+    <script src="../js/healthTips.js"></script>
 </body>
 </html>

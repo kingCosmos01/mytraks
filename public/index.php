@@ -26,6 +26,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/main.css">
+    <link rel="stylesheet" href="../public/css/healthTip.css">
     <link rel="stylesheet" href="../public/css/modals.css">
     <title>MyTraks - Food Nutrition Tracking System </title>
 </head>
@@ -40,6 +41,7 @@
             </div>
         <?php } ?>
     <?php endif; ?>
+    <?php require_once '../public/inc/healthtips.php'; ?>
     <div class="overlay" id="overlay"></div>
     <div class="navContainer" id="navContainer">
         <div class="wrapper">
@@ -108,5 +110,6 @@
     
 
     <script src="../public/js/main.js"></script>
+    <script src="../public/js/healthTips.js"></script>
 </body>
 </html>

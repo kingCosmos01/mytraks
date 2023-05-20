@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyTraks</title>
     <link rel="stylesheet" href="public/css/home.css">
+    <link rel="stylesheet" href="public/css/healthTip.css">
 </head>
 <body>
 
@@ -89,10 +90,13 @@
         </div>
     </div>
 
+    <?php include_once 'public/inc/healthtips.php'; ?>
+
 
     <?php include_once 'public/inc/footer.php'; ?>
 
 
     <script src="public/js/main.js"></script>
+    <script src="public/js/healthTips.js"></script>
 </body>
 </html>

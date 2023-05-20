@@ -1,0 +1,54 @@
+/* healthTipBox */
+.healthTipBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 24px 18px;
+    top: 90px;
+    right: 120px;
+    background: #fff;
+    justify-content: center;
+    text-align: left;
+    border-left: 20px solid #00ff2a;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .1);
+    border-radius: .2em;
+    z-index: 999;
+}
+
+.healthTipBox .head {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.healthTipBox .head h3 {
+    position: relative;
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+}
+
+.healthTipBox .head span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    margin-top: -15px;
+}
+
+.healthTipBox li {
+    width: 100%;
+    padding-right: 10px;
+    margin-top: 25px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+}

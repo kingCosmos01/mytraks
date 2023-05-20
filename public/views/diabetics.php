@@ -27,8 +27,11 @@
     <title>Diabetic Health Recommendations</title>
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../css/healthTip.css">
 </head>
 <body>
+<?php require_once '../inc/healthtips.php'; ?>
+    
 <div class="container">
         <div class="wrapper">
             <div class="nav">
@@ -58,5 +61,6 @@
 
     <script src="../js/diabetisAPI.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/healthTips.js"></script>
 </body>
 </html>
