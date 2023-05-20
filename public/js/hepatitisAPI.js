@@ -21,15 +21,24 @@ _ajax.onload = function() {
                     <h2 class="card-title">${item.Hepatitis.title}</h2>                    
                     <li class="card-item">
                         <h2 class="clickable">Fruits and Vegetables</h2>
-                        <p class="removeable">${item.Hepatitis.FruitsandVegetables}</p>
+                        <p class="removeable">
+                            ${item.Hepatitis.FruitsandVegetables}   
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>
                     <li class="card-item">
                         <h2 class="clickable">Grains</h2>
-                        <p class="removeable">${item.Hepatitis.Grains}</p>
+                        <p class="removeable">
+                            ${item.Hepatitis.Grains}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>
                     <li class="card-item">
                         <h2 class="clickable">Proteins</h2>
-                        <p class="removeable">${item.Hepatitis.proteins}</p>
+                        <p class="removeable">
+                            ${item.Hepatitis.proteins}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>                    
                 </ul>
             `;
@@ -39,15 +48,21 @@ _ajax.onload = function() {
                     <h2 class="card-title">${item.Hepatitis.avoidable.title}</h2>                    
                     <li class="card-item">
                         <h2 class="clickable">Processed food items</h2>
-                        <p class="removeable">${item.Hepatitis.avoidable.ProcessedFoodItems}</p>
+                        <p class="removeable">
+                            ${item.Hepatitis.avoidable.ProcessedFoodItems}
+                        </p>
                     </li>
                     <li class="card-item">
                         <h2 class="clickable">Hydrogenated Oils</h2>
-                        <p class="removeable">${item.Hepatitis.avoidable.HydrogenatedOils}</p>
+                        <p class="removeable">
+                            ${item.Hepatitis.avoidable.HydrogenatedOils}
+                        </p>
                     </li>
                     <li class="card-item">
                         <h2 class="clickable">sugar Intake</h2>
-                        <p class="removeable">${item.Hepatitis.avoidable.sugarIntake}</p>
+                        <p class="removeable">
+                            ${item.Hepatitis.avoidable.sugarIntake}
+                        </p>
                     </li>
                 </ul>
             `;

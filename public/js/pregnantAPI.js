@@ -21,23 +21,38 @@ ajax.onload = function () {
                 <h2 class="card-title">${item.Pregnancy.title}</h2>                    
                 <li class="card-item">
                     <h2 class="clickable">Vegetables</h2>
-                    <p class="removeable">${item.Pregnancy.Vegetables}</p>
+                    <p class="removeable">
+                        ${item.Pregnancy.Vegetables}
+                        <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                    </p>
                 </li>
                 <li class="card-item">
                     <h2 class="clickable">Fruits</h2>
-                    <p class="removeable">${item.Pregnancy.Fruits}</p>
+                    <p class="removeable">
+                        ${item.Pregnancy.Fruits}
+                        <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                    </p>
                 </li>
                 <li class="card-item">
                     <h2 class="clickable">Diary</h2>
-                    <p class="removeable">${item.Pregnancy.Diary}</p>
+                    <p class="removeable">
+                        ${item.Pregnancy.Diary}
+                        <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                    </p>
                 </li>
                 <li class="card-item">
                     <h2 class="clickable">Grains</h2>
-                    <p class="removeable">${item.Pregnancy.Grains}</p>
+                    <p class="removeable">
+                        ${item.Pregnancy.Grains}
+                        <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                    </p>
                 </li>
                 <li class="card-item">
                     <h2 class="clickable">Proteins</h2>
-                    <p class="removeable">${item.Pregnancy.Proteins}</p>
+                    <p class="removeable">
+                        ${item.Pregnancy.Proteins}  
+                        <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                    </p>
                 </li>
             </ul>
             `;

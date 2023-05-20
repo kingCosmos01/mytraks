@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    transition: all 500ms ease;
 }
 
 body {
@@ -48,6 +49,28 @@ body {
     width: 100%;
     padding: 10px;
     background: #000;
+}
+
+.container .wrapper .nav a {
+    display: flex;
+    text-decoration: none;
+}
+
+.container .wrapper .nav .user {
+    position: absolute;
+    display: inline-flex;
+    padding: 10px;
+    top: 15px;
+    right: 200px;    
+}
+
+.container .wrapper .nav .user a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;  
+}
+.container .wrapper .nav .user a:hover{
+    color: #ff8800;
 }
 
 .container .wrapper .nav img {

@@ -21,45 +21,63 @@ _ajax.onload = function() {
                     <h2 class="card-title">${item.Diabetics.title}</h2>                    
                     <li class="card-item">
                         <h2 class="clickable">Fatty Fish</h2>
-                        <p class="removeable">${item.Diabetics.Fattyfish}</p>
+                        <p class="removeable">
+                            ${item.Diabetics.Fattyfish}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>
                     <li class="card-item">
                         <h2 class="clickable">Leafy Greens</h2>
-                        <p class="removeable">${item.Diabetics.LeafyGreens}</p>
+                        <p class="removeable">
+                            ${item.Diabetics.LeafyGreens}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>
                     <li class="card-item">
                         <h2 class="clickable">Avocados</h2>
-                        <p class="removeable">${item.Diabetics.Avocados}</p>
+                        <p class="removeable">
+                            ${item.Diabetics.Avocados}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>                    
                     <li class="card-item">
                         <h2 class="clickable">Eggs</h2>
-                        <p class="removeable">${item.Diabetics.Eggs}</p>
+                        <p class="removeable">
+                            ${item.Diabetics.Eggs}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>                    
                     <li class="card-item">
                         <h2 class="clickable">Beans</h2>
-                        <p class="removeable">${item.Diabetics.Beans}</p>
+                        <p class="removeable">
+                            ${item.Diabetics.Beans}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>                    
                     <li class="card-item">
                         <h2 class="clickable">Broccoli</h2>
-                        <p class="removeable">${item.Diabetics.Broccoli}</p>
+                        <p class="removeable">
+                            ${item.Diabetics.Broccoli}
+                            <a href="http://localhost/mytraks/public/views/shop.php">Shop Now</a>
+                        </p>
                     </li>                    
                 </ul>
             `;
 
             avoidables += `
                 <ul class="card">
-                    <h2 class="card-title">${item.Hepatitis.avoidable.title}</h2>                    
+                    <h2 class="card-title">${item.Diabetics.avoidable.title}</h2>                    
                     <li class="card-item">
-                        <h2 class="clickable">Processed food items</h2>
-                        <p class="removeable">${item.Hepatitis.avoidable.ProcessedFoodItems}</p>
+                        <h2 class="clickable">Drinks With Added Sugars</h2>
+                        <p class="removeable">${item.Diabetics.avoidable.DrinksWithAddedSugars}</p>
                     </li>
                     <li class="card-item">
-                        <h2 class="clickable">Hydrogenated Oils</h2>
-                        <p class="removeable">${item.Hepatitis.avoidable.HydrogenatedOils}</p>
+                        <h2 class="clickable">Sugary Foods</h2>
+                        <p class="removeable">${item.Diabetics.avoidable.Sugaryfoods}</p>
                     </li>
                     <li class="card-item">
-                        <h2 class="clickable">sugar Intake</h2>
-                        <p class="removeable">${item.Hepatitis.avoidable.sugarIntake}</p>
+                        <h2 class="clickable">Starchy Vegetables</h2>
+                        <p class="removeable">${item.Diabetics.avoidable.StarchyVegetables}</p>
                     </li>
                 </ul>
             `;

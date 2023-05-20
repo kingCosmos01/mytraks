@@ -1,3 +1,22 @@
+<?php
+
+    session_start();
+    
+    if(!isset($_SESSION['user']))
+    {
+        header('Location: http://localhost/mytraks/public/views/login.php');
+    }
+    if(isset($_GET['logout']))
+    {
+        unset($_SESSION['user']);
+        session_destroy();
+        unset($_GET['logout']);
+
+        header('Location: http://localhost/mytraks/public/views/login.php');
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +31,13 @@
     <div class="container">
         <div class="wrapper">
             <div class="nav">
-                <h4>Mytraks</h4>
-                <img src="../images/6.png" alt="">
+                <a href="http://localhost/mytraks/public/">
+                    <h4>Mytraks</h4>
+                    <img src="../images/6.png" alt="">
+                </a>
+                <div class="user" id="user">
+                    <a href="">Hi, <?php echo $_SESSION['user']; ?></a>
+                </div>
             </div>
             <div class="head">
                 <h2>Nutrition for Hepatitis</h2>
